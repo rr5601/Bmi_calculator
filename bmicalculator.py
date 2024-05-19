@@ -19,6 +19,6 @@ while True:
     print("Your BMI is:", bmi)
 
     choice = input("Do you want to calculate another BMI? (yes/no): ").lower()
-    if choice != "yes"
+    if choice != 'yes':
         break
 
