@@ -18,5 +18,7 @@ while True:
     bmi = calculate_bmi(weight, height, units)
     print("Your BMI is:", bmi)
 
-    choice = input("Do you want to calculate another BMI? (yes/no): ")
+    choice = input("Do you want to calculate another BMI? (yes/no): ").lower()
+    if choice != "yes"
+        break
 
